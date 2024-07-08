@@ -106,7 +106,15 @@
     "html": "HTML",
     "clipboard": "In die Zwischenablage kopieren",
     "csv": "CSV",
-    "copyLink": "Link kopieren"
+    "copyLink": "Link kopieren",
+    "publishToTheWeb": "Im Web veröffentlichen",
+    "publishToTheWebHint": "Erstellen Sie eine Website mit AppFlowy",
+    "publish": "Veröffentlichen",
+    "unPublish": "Veröffentlichung rückgängig machen",
+    "visitSite": "Seite besuchen",
+    "exportAsTab": "Exportieren als",
+    "publishTab": "Veröffentlichen",
+    "shareTab": "teilen"
   },
   "moreAction": {
     "small": "klein",
@@ -518,7 +526,7 @@
     },
     "shortcutsPage": {
       "menuLabel": "Tastenkombinationen",
-      "title": "Shortcuts",
+      "title": "Tastenkombinationen",
       "editBindingHint": "Neue Verknüpfung eingeben",
       "searchHint": "Suchen",
       "actions": {
@@ -554,8 +562,8 @@
         "alignLeft": "Text links ausrichten",
         "alignCenter": "Text zentriert ausrichten",
         "alignRight": "Text rechts ausrichten",
-        "undo": "Undo",
-        "redo": "Redo",
+        "undo": "rückgängig machen",
+        "redo": "wiederherstellen",
         "convertToParagraph": "Block in Absatz umwandeln",
         "backspace": "Löschen",
         "deleteLeftWord": "Linkes Wort löschen",
@@ -724,7 +732,7 @@
       "current": "Aktuell",
       "actions": {
         "upgrade": "Upgrade",
-        "downgrade": "Downgrade",
+        "downgrade": "herabstufen",
         "downgradeDisabledTooltip": "Du wirst am Ende des Abrechnungszeitraums automatisch herabgestuft",
         "current": "Aktuell"
       },
@@ -732,7 +740,7 @@
         "title": "Kostenlos",
         "description": "Für die Organisation jeder Ecke Ihres Lebens und Ihrer Arbeit.",
         "price": "0€",
-        "priceInfo": "free forever"
+        "priceInfo": "frei für immer"
       },
       "proPlan": {
         "title": "Professionell",
@@ -809,7 +817,7 @@
       "cloudSupabaseAnonKey": "Supabase anonymer Schlüssel",
       "cloudSupabaseAnonKeyCanNotBeEmpty": "Der anonyme Schlüssel darf nicht leer sein",
       "cloudAppFlowy": "@:appName Cloud Beta",
-      "cloudAppFlowySelfHost": "@:appName Cloud Self-hosted",
+      "cloudAppFlowySelfHost": "@:appName Cloud selbst gehostet",
       "appFlowyCloudUrlCanNotBeEmpty": "Die Cloud-URL darf nicht leer sein",
       "clickToCopy": "Klicken, um zu kopieren",
       "selfHostStart": "Falls du keinen Server hast, konsultiere bitte",
@@ -899,7 +907,7 @@
         "urlUploadFailure": "URL konnte nicht geöffnet werden: {}",
         "failure": "Das hochgeladene Theme hat ein ungültiges Format."
       },
-      "theme": "Theme",
+      "theme": "Thema",
       "builtInsLabel": "Integrierte Theme",
       "pluginsLabel": "Plugins",
       "dateFormat": {
@@ -1324,7 +1332,7 @@
     },
     "selectionMenu": {
       "outline": "Gliederung",
-      "codeBlock": "Code Block"
+      "codeBlock": "Codeblock"
     },
     "plugins": {
       "referencedBoard": "Referenziertes Board",
@@ -1411,6 +1419,9 @@
         "addAnImage": "Ein Bild hinzufügen",
         "imageUploadFailed": "Bild hochladen gescheitert",
         "errorCode": "Fehlercode"
+      },
+      "math": {
+        "copiedToPasteBoard": "Die Gleichung wurde in die Zwischenablage kopiert"
       },
       "urlPreview": {
         "copiedToPasteBoard": "Der Link wurde in die Zwischenablage kopiert",
@@ -2067,6 +2078,29 @@
     "upgrade": "Update",
     "upgradeYourSpace": "Mehrere Domänen erstellen",
     "quicklySwitch": "Schnell zur nächsten Domäne wechseln",
-    "duplicate": "Domäne duplizieren"
+    "duplicate": "Domäne duplizieren",
+    "movePageToSpace": "Seite in den Bereich verschieben",
+    "switchSpace": "Arbeitsbereich wechseln"
+  },
+  "publish": {
+    "hasNotBeenPublished": "Diese Seite wurde noch nicht veröffentlicht",
+    "reportPage": "Berichtsseite",
+    "databaseHasNotBeenPublished": "Das Veröffentlichen einer Datenbank wird noch nicht unterstützt.",
+    "createdWith": "Erstellt mit",
+    "downloadApp": "AppFlowy herunterladen",
+    "copy": {
+      "codeBlock": "Der Inhalt des Codeblocks wurde in die Zwischenablage kopiert",
+      "imageBlock": "Der Bildlink wurde in die Zwischenablage kopiert",
+      "mathBlock": "Die Gleichung wurde in die Zwischenablage kopiert"
+    },
+    "containsPublishedPage": "Diese Seite enthält eine oder mehrere veröffentlichte Seiten. Wenn Sie fortfahren, wird die Veröffentlichung rückgängig gemacht. Möchten Sie mit dem Löschen fortfahren?",
+    "publishSuccessfully": "Erfolgreich veröffentlicht",
+    "unpublishSuccessfully": "Unveröffentlichung erfolgreich",
+    "publishFailed": "Veröffentlichung fehlgeschlagen",
+    "unpublishFailed": "Veröffentlichung konnte nicht rückgängig gemacht werden",
+    "noAccessToVisit": "Kein Zugriff auf diese Seite...",
+    "createWithAppFlowy": "Erstellen Sie eine Website mit AppFlowy",
+    "fastWithAI": "Schnell und einfach mit KI.",
+    "tryItNow": "Probieren Sie es jetzt"
   }
 }
